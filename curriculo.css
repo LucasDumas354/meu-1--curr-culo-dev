@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image:linear-gradient(
+     110deg,
+    purple 5%,
+     black 
+    );
+    display:flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+    background: rgb(201, 200, 200);
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: space-between;
+    gap:1rem;
+    width: 35rem;
+    height: 26rem;
+    margin-top: 14vh;
+    margin-bottom: 22vh;
+    border-radius: 2rem;
+
+}
+
+.foto, img{
+    display: inline-block;
+    width: 22rem;
+    height: 26rem;
+    border-radius: 2rem 0 0 2rem;
+    clip-path: polygon(0 0, 100% 0, 75% 100%, 0% 100%);
+}
+
+.informacoes{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.quem-sou-eu{
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.icones{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 11rem;
+    gap:1rem;
+ margin-bottom: auto;
+}
+
+.whatsapp{
+    color: green;
+}
+
+.curriculo{
+    color: black;
+}
+
+.linkedin{
+    color: blue;
+}
+
+.github{
+    color: black;
+}
+
+.email{
+    color: red;
+}
